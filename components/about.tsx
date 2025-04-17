@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Download } from "lucide-react"
 import Image from "next/image"
+import MyImage from '@/public/21BCE8914_Ayush Sahay.jpeg'
 
 export default function About() {
   return (
@@ -30,7 +31,7 @@ export default function About() {
             <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-primary/20 to-primary/0 -z-10 transform rotate-6"></div>
             <div className="h-full w-full overflow-hidden rounded-2xl border-2 border-muted">
               <Image
-                src="/placeholder.svg?height=600&width=600"
+                src={MyImage || "/placeholder.svg?height=600&width=600"}
                 alt="John Doe"
                 width={600}
                 height={600}
