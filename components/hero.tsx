@@ -8,13 +8,14 @@ import { TypewriterEffect } from "./ui/typewriter-effect"
 
 export default function Hero() {
   const words = [
-    { text: "Senior" },
+    { text: "Aspiring" },
     { text: "Software" },
     { text: "Engineer" },
-    { text: "with" },
-    { text: "15+" },
-    { text: "years" },
-    { text: "experience." },
+    { text: "eager" },
+    { text: "to" },
+    { text: "learn" },
+    { text: "and" },
+    { text: "grow." }
   ]
 
   return (
@@ -27,7 +28,7 @@ export default function Hero() {
         <div className="max-w-3xl mx-auto text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Hi, I'm <span className="gradient-text">John Doe</span>
+              Hi, I'm <span className="gradient-text">Ayush Sahay</span>
             </h1>
           </motion.div>
 
@@ -46,7 +47,7 @@ export default function Hero() {
             transition={{ delay: 0.6, duration: 0.5 }}
             className="text-lg text-muted-foreground mb-8"
           >
-            Transforming complex problems into elegant, efficient solutions. Specializing in distributed systems, cloud
+            Transforming complex problems into elegant, efficient solutions. Specializing in Full-Stack apps, cloud
             architecture, and enterprise applications.
           </motion.p>
 
